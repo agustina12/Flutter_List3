@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'latihan/latihanlist.dart' as Latihan;
 import 'latihan/latihanlist3.dart' as Latihan3; 
+import 'listarray/data_tabel.dart' as LatihanList;
 
 void main() {
   runApp(const MyApp());
@@ -27,6 +28,8 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: Latihan3.TugasList3(),
+      // home: LatihanList.DataTabel(),
+      
     );
   }
 }
